@@ -1,0 +1,79 @@
+:root {
+  --titles-font: 'Lobster', cursive;
+  --titles-align: center;
+  --text-font: 'Raleway', sans-serif;
+  --text-weight: 500;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color:red;
+  font-family: var(--titles-font);
+  font-size: 70px;
+  text-align: var(--titles-align);
+
+}
+
+#tribute-info {
+  font-family: var(--text-font);
+  margin: 70px;
+  background-color: rgba(0, 0, 255, 0.5);
+  padding: 40px 35px 40px 45px;
+  text-align: justify;
+  font-weight: var(--text-weight);
+  border-radius: 20px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 20px;
+}
+
+h2 {
+  color:red;
+  font-family: var(--titles-font);
+  font-size: 40px;
+  text-align: var(--titles-align);
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#image {
+  width: 85%;
+  height: auto;
+  display: block;
+  border-color: #005000;
+  border-width: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 30px auto 20px auto;
+}
+
+p, figcaption {
+  font-family: var(--text-font);
+  text-align: center;
+  font-weight: var(--text-weight);
+}
+
+#legend {
+  margin-bottom: 20px;
+}
+
+#quote {
+  margin: 30px 70px;
+  background-color: rgba(255, 195, 0, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+  border-color: rgb(255, 195, 0);
+  border-style: solid;
+  border-width: 20px;
+}
+
+#info-link {
+  margin: 40px 30px 30px 30px;
+}
