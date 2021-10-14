@@ -3,6 +3,10 @@
   --titles-align: center;
   --text-font: 'Raleway', sans-serif;
   --text-weight: 500;
+  --background-timeline: rgba(2, 81, 89, 0.5);
+  --border-timeline: rgb(2, 81, 89);
+  --background-quote: rgba(242, 178, 99, 0.5);
+  --border-quote: rgb(242, 178, 99);
 }
 
 * {
@@ -10,29 +14,32 @@
   margin: 0;
 }
 
+#main {
+  background: #F2DDB6;
+}
+
 h1 {
   color:red;
   font-family: var(--titles-font);
   font-size: 70px;
   text-align: var(--titles-align);
-
 }
 
 #tribute-info {
   font-family: var(--text-font);
   margin: 70px;
-  background-color: rgba(0, 0, 255, 0.5);
+  background-color: var(--background-timeline);
   padding: 40px 35px 40px 45px;
   text-align: justify;
   font-weight: var(--text-weight);
   border-radius: 20px;
-  border-color: blue;
+  border-color: var(--border-timeline);
   border-style: solid;
   border-width: 20px;
 }
 
 h2 {
-  color:red;
+  color:#732A24;
   font-family: var(--titles-font);
   font-size: 40px;
   text-align: var(--titles-align);
@@ -47,11 +54,12 @@ li {
   width: 85%;
   height: auto;
   display: block;
-  border-color: #005000;
+  border-color: #468C65;
   border-width: 30px;
   border-style: solid;
   border-radius: 20px;
   margin: 30px auto 20px auto;
+  max-width: 100%;
 }
 
 p, figcaption {
@@ -66,14 +74,18 @@ p, figcaption {
 
 #quote {
   margin: 30px 70px;
-  background-color: rgba(255, 195, 0, 0.5);
+  background-color: var(--background-quote);
   padding: 30px;
   border-radius: 20px;
-  border-color: rgb(255, 195, 0);
+  border-color: var(--border-quote);
   border-style: solid;
   border-width: 20px;
 }
 
 #info-link {
   margin: 40px 30px 30px 30px;
+}
+
+#tribute-link {
+  color: #2DA6A6;
 }
